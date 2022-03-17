@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LeaveFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ScrollView
+            android:layout_gravity="center"
+            android:paddingTop="26sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2.2">
+
+                    <TextView
+                        android:text="Name"
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:layout_weight="0.2" />
+
+                    <TextView
+                        android:id="@+id/ename"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2.2">
+
+                    <TextView
+                        android:text="Salary"
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:layout_weight="0.2" />
+
+                    <TextView
+                        android:id="@+id/salary"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2.2">
+
+                    <TextView
+                        android:text="Total leaves"
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:layout_weight="0.2" />
+
+                    <TextView
+                        android:id="@+id/total_leaves"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2.2">
+
+                    <TextView
+                        android:text="Leave taken"
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:layout_weight="0.2" />
+
+                    <TextView
+                        android:id="@+id/leave_taken"
+                        android:text=""
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_color"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/purple_500" android:state_pressed="true"/>
+
+    <!-- Image display in background in select state -->
+    <item android:drawable="@color/button_focus" android:state_focused="true"/>
+
+    <!-- Default state -->
+    <item android:drawable="@color/purple_500"/>
+    </selector>

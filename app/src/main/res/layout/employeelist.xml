@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:elevation="2dp"
+    android:background="@drawable/login"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.2">
+
+            <TextView
+                android:text="Name"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/ename"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.2">
+
+            <TextView
+                android:text="Gender"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.2">
+
+            <TextView
+                android:text="DOG"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/doj"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.2">
+
+            <TextView
+                android:text="Department"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/depertment"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.2">
+
+            <TextView
+                android:text="Location"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/location"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2.2">
+
+            <TextView
+                android:text="Salary"
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:id="@+id/sslary"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnmoredetails"
+        android:background="@drawable/button_effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="More Details"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
